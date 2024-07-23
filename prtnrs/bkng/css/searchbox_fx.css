@@ -1,0 +1,618 @@
+/*** Searchbox ***/
+
+/* containers */
+.EasyToBook_sb_container,
+.EasyToBook_sb_container * {
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	line-height: 14px;
+	text-align: left;
+	color: #000000; /* change the value (#000000) to change the overall text-color */
+}
+
+.EasyToBook_sb_container {
+	border: 7px solid #FFFFFF;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.15);
+	margin: 36px auto 0;
+	min-height: 220px;
+	padding: 20px 18px 10px;
+	position: relative;
+	width: 560px;
+
+	background: url("/images/bg.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+#EasyToBook_sb_container {
+	padding: 0px;
+	min-height: 210px;
+	background: none;
+}
+
+* html #EasyToBook_sb_container {
+	height: 210px;
+}
+
+/* header */
+
+.searchboxheader {
+	color: #FFFFFF;
+	font-family: "HandOfSean",serif;
+	font-size: 27px;
+	font-weight: normal;
+	letter-spacing: 0.03em;
+	line-height: 34px;
+	margin-bottom: 22px;
+	text-align: center;
+	text-shadow: 0 0 5px #000000;
+
+}
+
+
+/* fields */
+.EasyToBook_sb_searchboxRoundedfg input {
+	/*height: 15px;*/
+
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+
+	background: url("/web/20171029144935im_/https://www.worldhotelsonline.org/prtnrs/bkng/css/sprite-0626.png") repeat-x scroll 0 -1296px #FFFFFF;
+	border-color: #B6B6B6 #DDDDDD #DDDDDD;
+	border-image: none;
+	border-radius: 3px;
+	border-style: solid;
+	border-width: 1px;
+	box-shadow: none;
+	margin-bottom: 0;
+}
+
+.EasyToBook_sb_searchboxRoundedfg select {
+	/*height: 19px;*/
+
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+
+	background: url("/web/20171029144935im_/https://www.worldhotelsonline.org/prtnrs/bkng/css/sprite-0626.png") repeat-x scroll 0 -1296px #FFFFFF;
+	border-color: #B6B6B6 #DDDDDD #DDDDDD;
+	border-image: none;
+	border-radius: 3px;
+	border-style: solid;
+	border-width: 1px;
+	box-shadow: none;
+	margin-bottom: 0;
+
+	color: #337CA9;
+	font-size: 22px;
+	line-height: 28px;
+	margin: 0;
+	padding: 9px 4px;
+
+
+
+
+
+
+}
+
+.EasyToBook_sb_searchboxRoundedfg input,
+.EasyToBook_sb_searchboxRoundedfg select {
+	font-size: 11px;
+	color: #000000;
+}
+
+/* destination field */
+#EasyToBook_sb_destination_line {
+	margin: 0 0 5px 0;
+}
+
+.EasyToBook_sb_destinationField_deac,
+.EasyToBook_sb_destinationField_Popular {
+	color: #CCCCCC;
+}
+
+.EasyToBook_sb_destinationField_act {
+	color: #000000;
+}
+
+.EasyToBook_sb_destinationField_deac,
+.EasyToBook_sb_destinationField_act {
+	width: 190px;
+}
+
+/* date fields */
+#EasyToBook_sb_dates_line {
+	margin: 0 0 5px 0;
+}
+
+#EasyToBook_sb_dates_line img {
+	/*margin: -1px 0 0 0;
+	vertical-align: top !important;*/
+}
+
+#EasyToBook_sb_dates_line select {
+	width: 75px;
+}
+
+/* currency field */
+.EasyToBook_sb_currency {
+	margin: 0 0 10px 0;
+}
+
+/* room fields */
+#EasyToBook_sb_rooms_line {
+	padding: 0 0 10px 0;
+}
+
+#EasyToBook_sb_rooms_line select {
+	width: 85px;
+}
+
+#EasyToBook_sb_persons {
+	display: inline;
+}
+
+#EasyToBook_sb_rooms_text_in {
+	display: inline;
+	padding: 0 3px;
+}
+
+/* searchbutton */
+.EasyToBook_sb_searchbutton {
+	text-align: right;
+	clear: both;
+}
+
+.EasyToBook_sb_searchbutton input {
+	height: auto;
+	width: auto;
+	padding: 1px 5px;
+	overflow: visible;
+	border: 1px solid #5E8E00; /* change the value (#5E8E00) to change the border-color of the button */
+	background: #89CB0A; /* change the value (#89CB0A) to change the background-color of the button */
+	font-size: 13px;
+	line-height: 19px;
+	font-weight: bold;
+	color: #FFFFFF; /* change the value (#FFFFFF) to change the text-color of the button */
+	cursor: pointer;
+}
+
+/* powered by */
+.powered_by {
+	margin: -20px 0 0 0;
+	height: 20px;
+	padding: 0 5px;
+}
+
+.powered_by a,
+.powered_by a:visited,
+.powered_by a:hover {
+	font-size: 9px;
+	text-decoration: none;
+	color: #999999; /* change the value (#999999) to change the text-color of the 'Powered by ...'-line */
+}
+
+
+
+/*** error messages ***/
+
+#EasyToBook_sb_destination_err_msg,
+#EasyToBook_sb_dates_err_msg,
+#EasyToBook_sb_rooms_err_msg {
+	margin: 1px -3px;
+	padding: 2px 3px;
+	width: 100%;
+	background: #E0E0E0; /* change the value (#E0E0E0) to change the background-color of the error-messages */
+}
+
+* html #EasyToBook_sb_destination_err_msg,
+* html #EasyToBook_sb_dates_err_msg,
+* html #EasyToBook_sb_rooms_err_msg {
+	margin: 1px 0;
+	width: auto;
+}
+
+#EasyToBook_sb_destination_err_str_msg,
+#EasyToBook_sb_dates_text_checkDates,
+#EasyToBook_sb_rooms_text_checkRooms {
+	color: #FF0000;
+}
+
+#EasyToBook_sb_dates_err_msg img,
+#EasyToBook_sb_rooms_err_msg img {
+	margin: -1px 0;
+	vertical-align: top !important;
+}
+
+#EasyToBook_sb_destination_notFound_err_msg {
+	color: #FF0000; /* change the value (#FF0000) to change the text-color of the error-messages */
+}
+
+#cclink0,
+#cclink1,
+#cclink2 {
+	display: block;
+	position: relative;
+	padding: 0 5px;
+	border: 1px solid #999999;
+	background: #FFFFFF;
+	font-size: 11px;
+	line-height: 16px;
+	text-decoration: none;
+	color: #000000;
+}
+
+#cclink1,
+#cclink2 {
+	margin: -1px 0 0 0;
+	border-top: 0px solid #000000;
+}
+
+#cclink0:hover,
+#cclink1:hover,
+#cclink2:hover {
+	background: #DFEDFF;
+	text-decoration: none;
+}
+
+
+
+/**** Autocompleter ***/
+
+.autocompleter-loading {
+	background: url(/web/20171029144935im_/https://www.worldhotelsonline.org/prtnrs/bkng/css/i/sindicators/load_indicator.gif) #FFFFFF no-repeat;
+}
+
+ul.EasyToBook_sb_autocompleter-choices,
+ul.EasyToBook_sb_autocompleter-choices * {
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	line-height: normal;
+	text-align: left;
+	color: #000000;
+}
+
+ul.EasyToBook_sb_autocompleter-choices {
+	top: 0;
+	left: 0;
+	width: auto;
+	background: #FFFFFF;
+	border: 1px solid #999999;
+	overflow: hidden;
+}
+
+ul.EasyToBook_sb_autocompleter-choices li {
+	margin: 0;
+	padding: 0 5px;
+	height: auto;
+	width: auto;
+	min-width: 200px;
+	background: transparent;
+	line-height: 16px;
+	font-size: 11px;
+	white-space: nowrap;
+}
+
+ul.EasyToBook_sb_autocompleter-choices li.autocompleter-selected {
+	width: auto;
+	background: #DFEDFF;
+}
+
+* html ul.EasyToBook_sb_autocompleter-choices li,
+* html ul.EasyToBook_sb_autocompleter-choices li.autocompleter-selected {
+	width: 200px;
+}
+
+
+
+
+
+
+
+#EasyToBook_sb_destination_text_findHotels{display: none;}
+
+#EasyToBook_sb_city_name{
+	color: #337CA9;
+	font-size: 22px;
+	line-height: 28px;
+	margin: 0;
+	padding: 9px 4px 9px 4px;
+	width: 100%;
+}
+
+
+
+
+#EasyToBook_sb_dates_line{
+	position: relative;
+	float: left;
+	width: 400px;
+
+	height: 60px;
+	margin: 15px 0 0;
+}
+
+#EasyToBook_sb_dates_text_checkIn, #EasyToBook_sb_dates_text_checkOut,
+#EasyToBook_sb_currency_text_currency,
+#EasyToBook_sb_rooms_text_in{
+	display: block;
+	position: absolute;
+
+	color: white;
+	font-weight: bold;
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#EasyToBook_sb_dates_text_checkIn{left: 0px;}
+#EasyToBook_sb_dates_text_checkOut{left: 200px;}
+
+#EasyToBook_sb_day_Arrival, #EasyToBook_sb_monthYearArrival,
+#EasyToBook_sb_day_Departure, #EasyToBook_sb_monthYearDeparture{
+	position: absolute;
+	top: 20px;
+	margin: 0px;
+}
+#EasyToBook_sb_day_Arrival{left:0px;}
+#EasyToBook_sb_monthYearArrival{left: 80px;}
+#EasyToBook_sb_day_Departure{left: 200px;}
+#EasyToBook_sb_monthYearDeparture{left: 280px;}
+
+img#fd-but-EasyToBook_sb_arrival, img#fd-but-EasyToBook_sb_departure{
+	position: absolute;
+	margin: 0px;
+	width: 25px;
+	height: auto;
+	top: 27px;
+}
+img#fd-but-EasyToBook_sb_arrival{left: 160px;}
+img#fd-but-EasyToBook_sb_departure{left: 360px;}
+
+
+.EasyToBook_sb_currency{
+	position: relative;
+	float: right;
+	width: 155px;
+	height: 60px;
+	margin: 	15px 0 0;
+}
+#currency{
+	position: absolute;
+	top: 20px;
+	width: 155px;
+}
+
+#EasyToBook_sb_rooms_line{
+	position: relative;
+	float: left;
+	width: 200px;
+	height: 50px;
+	margin: 	15px 0 0;
+}
+
+#EasyToBook_sb_persons, #EasyToBook_sb_rooms{
+	position: absolute;
+	top: 20px;
+	width: 95px !important;
+}
+#EasyToBook_sb_rooms{left: 100px;}
+
+.EasyToBook_sb_searchbutton{
+	position: relative;
+	float: right;
+	width: 200px;
+	height: 50px;
+	margin: 	15px 0 0;
+	clear: none;
+}
+#EasyToBook_sb_searchbutton_input{
+	position: absolute;
+	width: 150px;
+	height: 40px;
+	top: 10px;
+	right: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	text-align: center;
+	text-shadow: 1px 1px 0 rgba(51, 51, 51, 0.5);
+	border-radius: 5px;
+
+
+background: #a7d911; /* Old browsers */
+background: -moz-linear-gradient(top, #a7d911 0%, #89b10e 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a7d911), color-stop(100%,#89b10e)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #a7d911 0%,#89b10e 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #a7d911 0%,#89b10e 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #a7d911 0%,#89b10e 100%); /* IE10+ */
+background: linear-gradient(to bottom, #a7d911 0%,#89b10e 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7d911', endColorstr='#89b10e',GradientType=0 ); /* IE6-9 */
+}
+
+#EasyToBook_sb_searchbutton_input:hover{
+background: #91bb0f; /* Old browsers */
+background: -moz-linear-gradient(top, #91bb0f 0%, #81a70e 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#91bb0f), color-stop(100%,#81a70e)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #91bb0f 0%,#81a70e 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #91bb0f 0%,#81a70e 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #91bb0f 0%,#81a70e 100%); /* IE10+ */
+background: linear-gradient(to bottom, #91bb0f 0%,#81a70e 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#91bb0f', endColorstr='#81a70e',GradientType=0 ); /* IE6-9 */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*booking.com*/
+#searchboxInc{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	line-height: 14px;
+	text-align: left;
+	color: #000000;
+
+	border: 7px solid #FFFFFF;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.15);
+	margin: 36px auto 0;
+	min-height: 220px;
+	padding: 20px 18px 10px;
+	position: relative;
+	width: 560px;
+	background: url("/images/bg.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+#searchboxInc input,
+#searchboxInc select{
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+
+	border: 1px solid #B6B6B6;
+	border-radius: 3px;
+	box-shadow: none;
+	margin-bottom: 0;
+	padding: 9px 4px;
+
+	font-size: 11px;
+	color: #000000;
+}
+
+#searchboxInc #destination{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 28px;
+	margin: 0;
+	padding: 9px 4px 9px 4px;
+	width: 100%;
+}
+
+#inout{
+	position: relative;
+	margin: 15px 0 0;
+}
+
+#bkng_dates_text_checkIn{
+	color: #FFFFFF;
+	display: block;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	position: absolute;
+}
+
+#b_checkin_day, #b_checkin_month, #b_checkout_day, #b_checkout_month{
+	position: absolute;
+	top: 20px;
+}
+#b_checkin_day, #b_checkout_day{left: 0px; width: 65px;}
+
+#b_checkout_day{left: 230px;}
+
+#b_checkin_month, #b_checkout_month{left: 70px; width: 110px;}
+#b_checkout_month{left: 300px;}
+
+#checkIn_calendar, #checkOut_calendar{
+	position: absolute;
+	height: 19px;
+	width: 22px;
+	top: 29px;
+	left: 185px;
+}
+#checkOut_calendar{left: 415px;}
+
+
+#searchboxInc #bkng_dates_text_checkIn, #searchboxInc bkng_dates_text_checkOut{
+	position: absolute;
+	display: block;
+	color: #FFFFFF;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+#searchboxInc bkng_dates_text_checkOut{
+	left: 230px;
+}
+
+#inout{
+	position: relative;
+	float: left;
+	height: 90px;
+	width: 430px;
+}
+#inout .avail{
+	position: absolute;
+	bottom: 0px;
+	height: 20px;
+	width: 100%;
+}
+#inout .avail #availcheck, #inout .avail #labfor{
+	position: absolute;
+	bottom: 0px;
+	margin: 0px;
+}
+#inout .avail #labfor{
+	left: 15px;
+	bottom: -2px;
+	color: #FFFFFF;
+	font-size: 13px;
+	font-weight: bold;
+	text-shadow: 0px 0px 0px #a5a5a5;
+}
+#searchboxInc .but{
+	position: relative;
+	float: right;
+	top: 30px;
+	width: 83px;
+	height: 37px;
+
+}
+#searchboxInc .but button{
+position: absolute;
+padding: 10px 13px;
+font-size: 13px;
+font-weight: bold;
+text-align: center;
+text-shadow: 1px 1px 0 rgba(51, 51, 51, 0.5);
+color: #FFFFFF;
+border: 1px solid #5E8E00;
+border-radius: 5px;
+background: linear-gradient(to bottom, #A7D911 0%, #89B10E 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.calheader select{display: inline;}
+/*
+     FILE ARCHIVED ON 14:49:35 Oct 29, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 07:09:47 Jul 23, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.823
+  exclusion.robots: 0.041
+  exclusion.robots.policy: 0.025
+  esindex: 0.014
+  cdx.remote: 5.664
+  LoadShardBlock: 717.968 (3)
+  PetaboxLoader3.datanode: 703.131 (4)
+  PetaboxLoader3.resolve: 46.611 (2)
+  load_resource: 55.724
+*/

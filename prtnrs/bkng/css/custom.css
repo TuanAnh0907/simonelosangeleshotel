@@ -1,0 +1,125 @@
+body {
+    background-color: #F2F2F2;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.main_inside {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+
+
+.container {
+    padding: 5px;
+}
+
+
+.splashContainer {
+    margin: -20px -20px -37px;
+    margin: 0px;
+    /*height: 490px;*/
+    height: 350px;
+}
+
+.landingTopHotels {
+    padding-left: 15px;
+
+    max-width: 1113px;
+}
+
+.topHotels {
+    margin-left: 0px;
+}
+
+ul#topHotelsContainer {
+    margin-left: 0px;
+}
+
+.main_inside ul li {
+    margin-left: 27px;
+}
+
+
+.splash {
+    border-radius: 4px;
+    margin: -9px -5px -5px;
+    width: 1138px;
+}
+
+.splashMask {
+    left: -5px;
+    width: 1138px;
+}
+
+
+.top_menu a {
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-size: 12px;
+    height: 28px;
+    padding: 12px 20px 0;
+    position: relative;
+    text-decoration: none;
+}
+
+.favoriteHotelsTitle {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #337CA9;
+    text-shadow: 1px 1px 1px #000000;
+    padding: 0 0 20px 30px;
+}
+
+.main_inside ul li {
+    margin-left: 0;
+}
+
+.main_inside ul li.hotelBoxContainer {
+    margin: 0px;
+    margin-bottom: 3px;
+}
+
+
+/***************/
+#searchboxInc {
+    margin-top: 0px !important;
+}
+
+ul.tab-links, ul.tab-links li {
+    margin-bottom: 0px;
+}
+
+.landingTopHotels {
+    padding-left: 1px;
+}
+
+#tab1 {
+    width: 1125px;
+
+}
+
+#topHotelsContainer .hotelBox {
+    margin-right: 15px;
+}
+
+.tab-content {
+    background-color: white;
+}
+
+.hotelContentContainer {
+    background-color: #fcfcfc;
+}
+
+.ratesFrom {
+    background-color: #ebebeb;
+}
+
+#labfor {
+    display: block;
+}

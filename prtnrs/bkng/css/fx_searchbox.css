@@ -1,0 +1,269 @@
+.hcsb_container{
+	width: auto !important;
+	height: auto !important;
+	background-color: #F3F4F5 !important;
+}
+
+.hcsb_container .hcsb_outer{
+	width: 548px !important;
+	padding: 25px !important;
+	border: 1px solid #CCCCCC !important;
+}
+.hcsb_container h2{display: none !important;}
+
+.hcsb_container .hcsb_content{
+	border: none !important;
+	padding: 0px !important;
+}
+.hcsb_content, .hcsb_content fieldset{
+	background-color: #F3F4F5 !important;
+}
+
+
+.hcsb_container .hcsb_content label{
+	font-family: "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif !important;
+	font-size: 22px !important;
+}
+
+.hcsb_container .hcsb_content .hcsb_noDatesLabel{font-size: 12px !important;}
+.hcsb_noDatesWrapper{padding: 10px 0 !important;}
+
+.hcsb_citySearchWrapper{padding-bottom: 25px !important;}
+
+.hcsb_checkinDateWrapper, .hcsb_checkoutDateWrapper{width: auto !important;}
+.hcsb_checkinDateWrapper{margin-right: 25px !important;}
+
+.hcsb_checkinDay, .hcsb_checkoutDay{width: 84px !important;}
+.hcsb_checkinMonth, .hcsb_checkoutMonth{width: 132px !important;}
+
+.hcsb_checkinDateContent img, .hcsb_checkoutDateContent img{
+	height: 25px !important;
+	width: 30px !important;
+	top: .37em !important;
+	float: right !important;
+	margin-left: 5px !important;
+	background: transparent url(../images/tmplt/cal.png) no-repeat scroll 0 0 !important;
+}
+a.hcsb_addNewRoom, a.hcsb_removeRoom{color: #0088CC !important;}
+a.hcsb_addNewRoom:hover, a.hcsb_removeRoom:hover{color: #00A7F7 !important;}
+
+a.hcsb_addNewRoom{
+	background: url("../images/tmplt/btns.png") no-repeat scroll 0 -250px transparent;
+	display: inline-block;
+	line-height: 18px;
+	padding: 0 0 0 22px;
+	position: relative;
+}
+
+a.hcsb_searchButton{
+	width: 165px !important;
+	height: 50px !important;
+	padding: 0px !important;
+	margin-top: 27px !important;
+	font-size: 0px !important;
+	background: url(../images/tmplt/btns.png) 0px -100px !important;
+}
+a.hcsb_searchButton:hover{background: url(../images/tmplt/btns.png) 0px -150px !important;}
+
+.hcsb_extend{
+	width: 548px !important;
+	padding: 10px 25px 25px !important;
+	border: 1px solid #CCCCCC !important;
+	border-top: none !important;
+	background-color: #F3F4F5 !important;
+}
+div[id$="_inner"]{
+	margin: 0px !important;
+	border: none !important;
+	background-color: #F3F4F5 !important;
+}
+.hcsb_roomsConfig{
+	margin: 0px !important;
+	background-color: #e8e8e8 !important;
+	border: 1px solid #cccccc !important;
+}
+.hcsb_roomsConfig fieldset {
+	background-color: #e8e8e8 !important;
+}
+
+/*rounded conners*/
+.hcsb_container, .hcsb_outer
+{	border-radius:5px !important;
+	-webkit-border-radius:5px !important;
+	-moz-border-radius:5px !important;
+}
+
+
+
+
+
+
+
+
+
+
+/* calendar styles */
+#hcsb_bodyElements .ui-datepicker{width: auto !important;}
+
+#hcsb_bodyElements .ui-widget-content{
+	border: 1px solid #aaaaaa;
+	background: #ffffff url(../images/tmplt/ui-images/ui-bg_flat_75_ffffff_40x100.png) 50% 50% repeat-x;
+	color: #222222;
+}
+#hcsb_bodyElements .ui-widget-content a{color: #222222;}
+#hcsb_bodyElements .ui-widget-header {
+	border: 1px solid #aaaaaa;
+	background: #cccccc url(../images/tmplt/ui-images/ui-bg_highlight-soft_75_cccccc_1x100.png) 50% 50% repeat-x;
+	color: #222222;
+	font-weight: bold;
+}
+#hcsb_bodyElements .ui-widget-header a{color: #222222;}
+
+/* Interaction states
+----------------------------------*/
+#hcsb_bodyElements .ui-state-default,
+#hcsb_bodyElements .ui-widget-content .ui-state-default,
+#hcsb_bodyElements .ui-widget-header .ui-state-default{
+	border: 1px solid #d3d3d3;
+	background: #e6e6e6 url(../images/tmplt/ui-images/ui-bg_glass_75_e6e6e6_1x400.png) 50% 50% repeat-x;
+	font-weight: normal;
+	color: #555555;
+}
+#hcsb_bodyElements .ui-state-default a,
+#hcsb_bodyElements .ui-state-default a:link,
+#hcsb_bodyElements .ui-state-default a:visited{
+	color: #555555;
+	text-decoration: none;
+}
+#hcsb_bodyElements .ui-state-hover,
+#hcsb_bodyElements .ui-widget-content .ui-state-hover,
+#hcsb_bodyElements .ui-widget-header .ui-state-hover,
+#hcsb_bodyElements .ui-state-focus,
+#hcsb_bodyElements .ui-widget-content .ui-state-focus,
+#hcsb_bodyElements .ui-widget-header .ui-state-focus {
+	border: 1px solid #999999;
+	background: #dadada url(../images/tmplt/ui-images/ui-bg_glass_75_dadada_1x400.png) 50% 50% repeat-x !important;
+	font-weight: normal;
+	color: #212121 !important;
+}
+#hcsb_bodyElements .ui-state-hover a,
+#hcsb_bodyElements .ui-state-hover a:hover,
+#hcsb_bodyElements .ui-state-hover a:link,
+#hcsb_bodyElements .ui-state-hover a:visited {
+	color: #212121;
+	text-decoration: none;
+}
+#hcsb_bodyElements .ui-state-active,
+#hcsb_bodyElements .ui-widget-content .ui-state-active,
+#hcsb_bodyElements .ui-widget-header .ui-state-active {
+	border: 1px solid #aaaaaa;
+	background: #ffffff url(../images/tmplt/ui-images/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x;
+	font-weight: normal;
+	color: #212121;
+}
+#hcsb_bodyElements .ui-state-active a,
+#hcsb_bodyElements .ui-state-active a:link,
+#hcsb_bodyElements .ui-state-active a:visited {
+	color: #212121;
+	text-decoration: none;
+}
+
+/* Interaction Cues
+----------------------------------*/
+#hcsb_bodyElements .ui-state-highlight,
+#hcsb_bodyElements .ui-widget-content .ui-state-highlight,
+#hcsb_bodyElements .ui-widget-header .ui-state-highlight {
+	border: 1px solid #fcefa1;
+	background: #fbf9ee url(../images/tmplt/ui-images/ui-bg_glass_55_fbf9ee_1x400.png) 50% 50% repeat-x;
+	color: #363636;
+}
+#hcsb_bodyElements .ui-state-highlight a,
+#hcsb_bodyElements .ui-widget-content .ui-state-highlight a,
+#hcsb_bodyElements .ui-widget-header .ui-state-highlight a{color: #363636;}
+#hcsb_bodyElements .ui-state-error,
+#hcsb_bodyElements .ui-widget-content .ui-state-error,
+#hcsb_bodyElements .ui-widget-header .ui-state-error {
+	border: 1px solid #cd0a0a;
+	background: #fef1ec url(../images/tmplt/ui-images/ui-bg_glass_95_fef1ec_1x400.png) 50% 50% repeat-x;
+	color: #cd0a0a;
+}
+#hcsb_bodyElements .ui-state-error a,
+#hcsb_bodyElements .ui-widget-content .ui-state-error a,
+#hcsb_bodyElements .ui-widget-header .ui-state-error a{color: #cd0a0a;}
+#hcsb_bodyElements .ui-state-error-text,
+#hcsb_bodyElements .ui-widget-content .ui-state-error-text,
+#hcsb_bodyElements .ui-widget-header .ui-state-error-text{color: #cd0a0a;}
+#hcsb_bodyElements .ui-priority-primary,
+#hcsb_bodyElements .ui-widget-content .ui-priority-primary,
+#hcsb_bodyElements .ui-widget-header .ui-priority-primary{font-weight: bold;}
+#hcsb_bodyElements .ui-priority-secondary,
+#hcsb_bodyElements .ui-widget-content .ui-priority-secondary,
+#hcsb_bodyElements .ui-widget-header .ui-priority-secondary{
+	opacity: .7;
+	filter:Alpha(Opacity=70);
+	font-weight: normal;
+}
+#hcsb_bodyElements .ui-state-disabled,
+#hcsb_bodyElements .ui-widget-content .ui-state-disabled,
+#hcsb_bodyElements .ui-widget-header .ui-state-disabled {
+	opacity: .35;
+	filter:Alpha(Opacity=35);
+	background-image: none;
+}
+#hcsb_bodyElements .ui-state-disabled .ui-icon{filter:Alpha(Opacity=35); /* For IE8 - See #6059 */}
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+#hcsb_bodyElements .ui-icon {
+	width: 16px;
+	height: 16px;
+}
+#hcsb_bodyElements .ui-icon,
+#hcsb_bodyElements .ui-widget-content .ui-icon{
+	background-image: url(../images/tmplt/ui-images/ui-icons_222222_256x240.png);
+}
+#hcsb_bodyElements .ui-widget-header .ui-icon {
+	background-image: url(../images/tmplt/ui-images/ui-icons_222222_256x240.png);
+}
+#hcsb_bodyElements .ui-state-default .ui-icon {
+	background-image: url(../images/tmplt/ui-images/ui-icons_888888_256x240.png);
+}
+#hcsb_bodyElements .ui-state-hover .ui-icon,
+#hcsb_bodyElements .ui-state-focus .ui-icon {
+	background-image: url(../images/tmplt/ui-images/ui-icons_454545_256x240.png);
+}
+#hcsb_bodyElements .ui-state-active .ui-icon {
+	background-image: url(../images/tmplt/ui-images/ui-icons_454545_256x240.png);
+}
+#hcsb_bodyElements .ui-state-highlight .ui-icon {
+	background-image: url(../images/tmplt/ui-images/ui-icons_2e83ff_256x240.png);
+}
+#hcsb_bodyElements .ui-state-error .ui-icon,
+#hcsb_bodyElements .ui-state-error-text .ui-icon {
+	background-image: url(../images/tmplt/ui-images/ui-icons_cd0a0a_256x240.png);
+}
+
+#hcsb_bodyElements .ui-datepicker .ui-datepicker-prev,
+#hcsb_bodyElements .ui-datepicker .ui-datepicker-next {
+	position: absolute;
+	top: 5px;
+	width: 1.8em;
+	height: 1.8em;
+}
+
+/* Overlays */
+#hcsb_bodyElements .ui-widget-overlay {
+	background: #aaaaaa url(../images/tmplt/ui-images/ui-bg_flat_0_aaaaaa_40x100.png) 50% 50% repeat-x;
+	opacity: .3;
+	filter: Alpha(Opacity=30);
+}
+#hcsb_bodyElements .ui-widget-shadow {
+	margin: -8px 0 0 -8px;
+	padding: 8px;
+	background: #aaaaaa url(../images/tmplt/ui-images/ui-bg_flat_0_aaaaaa_40x100.png) 50% 50% repeat-x;
+	opacity: .3;
+	filter: Alpha(Opacity=30);
+	border-radius: 8px;
+}
